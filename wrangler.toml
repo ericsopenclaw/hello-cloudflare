@@ -1,3 +1,4 @@
 name = "hello-cloudflare"
 compatibility_date = "2026-03-27"
+account_id = "e86527afe6de4dc0540cd25c9723f10c"
 assets = { directory = "." }
