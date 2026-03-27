@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello Cloudflare!</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      color: #fff;
+    }
+    .container {
+      text-align: center;
+      padding: 3rem;
+    }
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+      background: linear-gradient(90deg, #f39c12, #e74c3c);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p { font-size: 1.5rem; color: #ccc; }
+    .badge {
+      margin-top: 2rem;
+      padding: 0.5rem 1rem;
+      background: #f39c12;
+      color: #1a1a2e;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Deployed!</h1>
+    <p>Successfully deployed to Cloudflare Workers</p>
+    <div class="badge">Auto-deploy from GitHub</div>
+  </div>
+</body>
+</html>
